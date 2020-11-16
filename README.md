@@ -1,0 +1,1 @@
+Repositório com os projetos realizados durante a formação de Desenvolvimento de Software da [Trybe](https://betrybe.com.br).
