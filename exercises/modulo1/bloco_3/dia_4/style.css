@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #1a1a1a;
+    background-color: whitesmoke;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading-title {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: rgb(116, 63, 138);
+}
+
+nav {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(116, 63, 138);
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+main {
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+main img {
+    width: 600px;
+    margin: 16px;
+}
+
+.info-table {
+    margin: 16px auto;
+    border: 1px solid rgb(56, 56, 56);
+}
+
+.info-table th {
+    background-color: rgb(113, 163, 192);
+    padding: 4px 16px;
+}
+
+main p {
+    text-align: justify;
+    line-height: 24px;
+}
+
+.article-subtitle {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 28px;
+    margin: 16px 0 0 0;
+}
+
+footer {
+    margin-top: 16px;
+    padding: 16px;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(116, 63, 138);
+    color: whitesmoke;
+}
+
+footer a {
+    color: whitesmoke;
+}
