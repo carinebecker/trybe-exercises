@@ -3,11 +3,12 @@
 * {
     margin: 0;
     border: 0;
+    padding: 0;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #1a1a1a;
+    color: rgb(56, 56, 56);
     background-color: whitesmoke;
 }
 
@@ -18,17 +19,19 @@ header {
 
 .heading-title {
     font-family: 'Gloria Hallelujah', cursive;
-    color: rgb(116, 63, 138);
+    color:rgb(61, 120, 155);
+    padding: 16px;
 }
 
 nav {
     margin: 0 auto;
     text-align: center;
-    background-color: rgb(116, 63, 138);
+    background-color: rgb(61, 120, 155);
 }
 
 nav ul li {
     display: inline-block;
+    list-style: none;
     padding: 16px;
 }
 
@@ -47,7 +50,8 @@ main {
 
 main img {
     width: 600px;
-    margin: 16px;
+    margin: 0 0 16px 0;
+    border: 2px solid rgb(56, 56, 56);
 }
 
 .info-table {
@@ -67,8 +71,15 @@ main p {
 
 .article-subtitle {
     font-family: 'Gloria Hallelujah', cursive;
-    font-size: 28px;
-    margin: 16px 0 0 0;
+    font-size: 24px;
+    color: rgb(61, 120, 155);
+    margin: 16px 0 16px 0;
+}
+
+.references li {
+    list-style: square;
+
+    text-align: left;
 }
 
 footer {
@@ -76,7 +87,7 @@ footer {
     padding: 16px;
     font-size: 12px;
     text-align: center;
-    background-color: rgb(116, 63, 138);
+    background-color: rgb(61, 120, 155);
     color: whitesmoke;
 }
 
