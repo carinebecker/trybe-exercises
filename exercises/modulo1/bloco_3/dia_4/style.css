@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(56, 56, 56);
+    background-color: whitesmoke;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading-title {
+    font-family: 'Gloria Hallelujah', cursive;
+    color:rgb(61, 120, 155);
+    padding: 16px;
+}
+
+nav {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(61, 120, 155);
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 16px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+main {
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+main img {
+    width: 600px;
+    margin: 0 0 16px 0;
+    border: 2px solid rgb(56, 56, 56);
+}
+
+.info-table {
+    margin: 16px auto;
+    border: 1px solid rgb(56, 56, 56);
+}
+
+.info-table th {
+    background-color: rgb(113, 163, 192);
+    padding: 4px 16px;
+}
+
+main p {
+    text-align: justify;
+    line-height: 24px;
+}
+
+.article-subtitle {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 24px;
+    color: rgb(61, 120, 155);
+    margin: 16px 0 16px 0;
+}
+
+.references li {
+    list-style: square;
+
+    text-align: left;
+}
+
+footer {
+    margin-top: 16px;
+    padding: 16px;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(61, 120, 155);
+    color: whitesmoke;
+}
+
+footer a {
+    color: whitesmoke;
+}
