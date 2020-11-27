@@ -50,7 +50,11 @@ for (let index = 0; index < numbers.length; index += 1) {
     }
 }
 
-console.log('Os números impares são ' + numerosImpares + '.')
+if (numerosImpares != 0) {
+    console.log('A quantidade de números ímpares é ' + numerosImpares.length + '.')
+} else {
+    console.log('Nenhum valor ímpar encontrado')
+}
 
 // EXERCÍCIO 7
 
@@ -68,7 +72,7 @@ console.log('O menor valor é ' + menorValor + '.')
 
 let until25 = [];
 
-for (index = 0; index <= 25; index += 1) {
+for (index = 1; index <= 25; index += 1) {
     until25.push(index)
 }
 
