@@ -1,12 +1,15 @@
 let n = 5;
 
-let coluna = '';
+let column = '';
 
-
-for (let index = 0; index < n; index += 1) {
-    for (let j = 0; j < n; j += 1) {
-        coluna += ' '
-    } 
-    coluna += '*'
-    console.log(coluna)
+for (let indexRow = 0; indexRow < n; indexRow += 1) {
+    for (let indexColumn = 0; indexColumn < n; indexColumn += 1) {
+        if (indexColumn < n - (indexRow + 1)) {
+            column += '-'
+        } else {
+            column += '*'
+        }
+    }
+    console.log(column)
+    column = ''
 } 
