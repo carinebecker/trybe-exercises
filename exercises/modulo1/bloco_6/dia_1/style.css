@@ -1,0 +1,17 @@
+header {
+    text-align: center;
+}
+
+.form-elements {
+    width: 80%;
+    margin: 16px auto;
+}
+
+.form-elements input[type="text"] {
+    width: 100%;
+}
+
+.submit-form {
+    display: block;
+    margin: 0 auto;
+}
