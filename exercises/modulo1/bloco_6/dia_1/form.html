@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bulma.min.css">
     <title>Cadastro de currículo</title>
   </head>
 
@@ -15,7 +15,7 @@
 
     <form method="GET">
       <!-- DADOS PESSOAIS -->
-      <fieldset class="form-elements">
+      <fieldset>
         <legend>Dados pessoais</legend>
         <label for="name">Nome</label>
         <input type="text" name="name" id="name" maxlength="40" required>
@@ -37,13 +37,11 @@
           <!-- option elementes created with createStatesList() -->
         </select>
 
-        <fieldset>
-          <legend>Tipo</legend>
-          <input type="radio" name="type" id="house" value="house" required>
-          <label for="house">Casa</label>
-          <input type="radio" name="type" id="apartament" value="apt">
-          <label for="apartament">Apartamento</label>
-        </fieldset>
+        <p>Tipo</p>
+        <input type="radio" name="type" id="house" value="house" required>
+        <label for="house">Casa</label>
+        <input type="radio" name="type" id="apartament" value="apt">
+        <label for="apartament">Apartamento</label>
       </fieldset>
 
       <!-- EMPREGOS ANTERIORES -->
@@ -62,7 +60,7 @@
         <input type="date" required>
       </fieldset>
 
-      <button type="submit" class="submit-form">Enviar formulário</button>
+      <button type="submit">Enviar formulário</button>
     </form>
 
     <script src="script.js"></script>
