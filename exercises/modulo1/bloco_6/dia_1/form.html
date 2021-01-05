@@ -33,9 +33,8 @@
         <input type="text" name="city" id="city" maxlength="28" required>
 
         <label for="state">Estado</label>
-        <select name="acre" id="state" required>
-          <option value="ac">Acre</option>
-          <!-- gerar os estados com com JS -->
+        <select name="state" id="state" required>
+          <!-- option elementes created with createStatesList() -->
         </select>
 
         <fieldset>
@@ -62,9 +61,11 @@
         <label for="initiation">Início</label>
         <input type="date" required>
       </fieldset>
-      
+
       <button type="submit" class="submit-form">Enviar formulário</button>
     </form>
+
+    <script src="script.js"></script>
   </body>
 
 </html>
