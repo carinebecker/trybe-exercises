@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bulma.min.css">
+  <title>Cadastro de currículo</title>
+</head>
+
+<body>
+  <header class="has-text-centered section">
+    <h1 class="title">Cadastro de currículo</h1>
+  </header>
+
+  <form method="GET" class="section">
+    <div class="control container box">
+      <!-- DADOS PESSOAIS -->
+      <h4 class="subtitle is-4">Dados pessoais</h4>
+
+      <div class="field">
+        <label class="label" for="name">Nome</label>
+        <input class="input" type="text" name="name" id="name" maxlength="40" required>
+      </div>
+
+      <div class="field">
+        <label class="label" for="email">Email</label>
+        <input class="input" type="text" name="email" id="email" maxlength="50" required>
+      </div>
+
+      <div class="field">
+        <label class="label" for="cpf">CPF</label>
+        <input class="input" type="text" name="cpf" id="cpf" maxlength="11" required>
+      </div>
+
+      <div class="field">
+        <label class="label" for="adress">Endereço</label>
+        <input class="input" type="text" name="adress" id="adress" maxlength="200" required>
+      </div>
+
+      <div class="field">
+        <label class="label" for="city">Cidade</label>
+        <input class="input" type="text" name="city" id="city" maxlength="28" required>
+      </div>
+
+      <div class="field">
+        <label class="label" for="state">Estado</label>
+        <div class="select">
+          <select name="state" id="state" required>
+            <!-- option elementes created with createStatesList() -->
+          </select>
+        </div>
+      </div>
+
+      <div class="field">
+        <p class="label">Tipo</p>
+        <label class="radio" for="house">
+          <input type="radio" name="type" id="house" value="house" required>
+          Casa
+        </label>
+        <label class="radio" for="apartament"><input type="radio" name="type" id="apartament" value="apt">
+          Apartamento
+        </label>
+      </div>
+
+      <hr>
+
+      <!-- EMPREGOS ANTERIORES -->
+      <h4 class="subtitle is-4">Experiências anteriores</h4>
+
+      <div class="field">
+        <label class="label" for="resume">Resumo do currículo</label>
+        <textarea class="textarea" name="resume" id="resume" maxlength="1000" required></textarea>
+      </div>
+
+      <div class="field">
+        <label class="label" for="role">Cargo</label>
+        <input class="input" type="text" name="role" id="role" maxlength="40" required>
+      </div>
+
+      <div class="field">
+        <label class="label" for="role-description">Descrição do cargo</label>
+        <input class="input" type="text" name="role-description" id="role-description" maxlength="500" required>
+      </div>
+
+      <div class="field">
+        <label class="label" for="initiation">Início</label>
+        <input class="input" type="date" required>
+      </div>
+      </fieldset>
+
+      <div class="block">
+        <button class="button is-success" type="submit">Enviar formulário</button>
+      </div>
+    </div>
+  </form>
+
+  <footer class="footer has-text-centered">
+    <p>Made with ♡ by <a href="https://github.com/carinebecker">Carine Becker</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
