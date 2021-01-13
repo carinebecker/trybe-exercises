@@ -1,3 +1,4 @@
+// PARTE 1
 let testingScope = escopo => { 
   if (escopo) { 
     let ifScope = 'Não devo ser utilizada fora do meu escopo (if)';
@@ -10,3 +11,6 @@ let testingScope = escopo => {
 }
 
 testingScope(false);
+
+// PARTE 2
+
